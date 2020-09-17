@@ -1,0 +1,351 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: #fcd404;
+    text-align: right;
+    font-family: 'Roboto';
+}
+
+.nav-link {
+    color: black;
+    cursor: pointer;
+    margin-right: 1em;
+    font-family: 'Roboto';
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: none;
+}
+
+.header {
+    background: #fcd404;
+}
+
+.sitetitle {
+    margin-left: 0.4em;
+    font-family: 'Mukta';
+}
+
+.description {
+    position: relative;
+    top: 8%;
+    padding: 2em;
+    line-height: 1.5;
+    font-family: 'Roboto';
+}
+
+.description p {
+    font-size: 1.25em;
+    width: 75%;
+    margin-left: 15px;
+}
+
+.siteicon {
+    width: 12%;
+    height: auto;
+    margin: 0 0 0 0.5em;
+}
+
+.description button {
+    background-color: #3104fc;
+    border: 1px solid white;
+    margin-left: 15px;
+    font-family: 'Roboto';
+}
+
+.description button:hover {
+    background-color: white;
+    color: #3104fc;
+}
+
+.about {
+    margin: -2rem 2em 0 2em;
+    padding: 0 4em 0 4em;
+    position: relative;
+}
+
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #3104fc;
+}
+
+.about .desc h1 {
+    color: black;
+    font-family: 'Mukta';
+}
+
+.about .desc p {
+    line-height: 2;
+    font-family: 'Roboto';
+}
+
+.toastpic {
+    box-shadow: 0 0 20px gray;
+    width: 80%;
+    height: auto;
+}
+
+.portfolio {
+    padding: 4em 2em 2em 2em;
+    position: relative;
+
+}
+
+.portfolio h1,
+.vlog h1 {
+    color: black;
+    margin: 0.5em;
+    font-family: 'Mukta';
+}
+
+.portfolio img {
+    max-height: 20em;
+    padding: 1em;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.banner .btn-success {
+    border-radius: 4px;
+}
+
+.banner {
+    font-family: 'Roboto';
+    align-items: center;
+    padding: 2em;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 300px;
+    background: linear-gradient(59deg, rgba(255, 255, 255, 1) 0%, rgba(255, 76, 88, 0.9542191876750701) 0%, rgba(252, 4, 20, 1) 100%);
+}
+
+.banner h2 {
+    padding: 1em 2em 1em 2em;
+}
+
+.banner .btn-outline-primary {
+    color: white;
+    border: 1px solid white;
+    font-family: 'Roboto';
+}
+
+.banner .btn-outline-primary:hover {
+    background: white;
+    color: #fc0414;
+}
+
+.banner img {
+    margin-top: 50px;
+    padding: 0;
+    height: 130px;
+    border-radius: 18px;
+    box-shadow: 0 5px 18px 0 rgba(0, 0, 0, .15);
+    margin: 0 auto;
+    display: block;
+    transform: rotate(-3deg);
+}
+
+.vlog {
+    padding: 4em 2em 2em 2em;
+    position: relative;
+}
+
+.card-link {
+    color: #3104fc;
+    font-family: 'Roboto';
+}
+
+.card-link:hover {
+    color: black;
+}
+
+.vlog .card {
+    box-shadow: 0 0 20px #ccc;
+}
+
+.vlog .card-body {
+    padding: 1em;
+    font-family: 'Roboto';
+}
+
+.contact {
+    background: #fcd404;
+    position: relative;
+}
+
+.contact h1 {
+    padding: 1em;
+    font-family: 'Mukta';
+}
+
+.contact .right {
+    max-width: 600px;
+}
+
+.contact .btn {
+    background-color: #3104fc;
+    border: 1px solid white;
+    margin-bottom: 85px;
+    font-family: 'Roboto';
+}
+
+.contact .btn:hover {
+    background-color: white;
+    color: #3104fc;
+}
+
+.contact .right .form-control::placeholder {
+    color: #888;
+    font-size: 1em;
+    font-family: 'Roboto';
+}
+
+
+.site-footer {
+    background-color: #fcd404;
+    text-align: center;
+    padding: 40px 0px 20px 0;
+
+}
+
+.social-wrapper {
+    margin-right: 30px;
+}
+
+.social-wrapper ul li {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+.twitter-icon {
+    background: white;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.youtube-icon {
+    margin-top: .625em;
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+    border-radius: 25px;
+    box-shadow: 0 5px 18px 0 rgba(0, 0, 0, .15);
+}
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.youtube-icon:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.footer-nav p {
+    color: black;
+    font-size: 0.6em;
+    font-family: 'Roboto';
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .about .desc {
+        padding: 0.5em;
+        border-top: 4px solid #3104fc;
+        border-left: none;
+        margin-top: 0.5em;
+    }
+
+    .toastpic {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .description {
+        top: 5%;
+        margin-left: 1em;
+    }
+
+    .description p {
+        line-height: 1.25;
+        font-size: 1em;
+    }
+
+    .waves {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .sitetitle {
+        font-size: 1.75em;
+    }
+
+    .toastpic {
+        margin-top: 1em;
+        width: 100%;
+    }
+
+    .about .desc p {
+        line-height: 1.25;
+    }
+
+    .about .desc {
+        padding: 2em 0.5em 0.5em 0.5em;
+        border-top: 4px solid #3104fc;
+        border-left: none;
+        margin-top: 0.5em;
+    }
+
+    .about {
+        margin: 2em 0 0 0;
+    }
+
+    .portfolio .img-fluid {
+        margin-top: 15px;
+    }
+
+    .morecorgis {
+        display: none;
+    }
+
+    .banner h2 {
+        padding: 1em 0 1em 0;
+        font-size: 1.25em;
+    }
+
+    .vlog .card {
+        margin-top: 15px;
+    }
+
+    .contact {
+        padding: 0 0.5em 0 0.5em;
+    }
+
+    .contact h1 {
+        text-align: center;
+        padding: none;
+    }
+
+    h4 {
+        font-size: 1.25em;
+    }
